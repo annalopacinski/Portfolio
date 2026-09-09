@@ -1125,12 +1125,12 @@ body {
 .ticker-track {
   display: flex;
   width: max-content;
-  animation: ticker-slide 60s linear infinite;
+  animation: ticker-slide 80s linear infinite;
 }
 
 .ticker-row {
   display: flex;
-  gap: 2.4rem;
+  gap: 1.8rem;
   padding: 0.95rem 1.2rem;
 }
 
@@ -1138,7 +1138,7 @@ body {
   font-family: var(--font-nav);
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   color: rgba(242, 239, 223, 0.96);
   white-space: nowrap;
   display: inline-flex;
